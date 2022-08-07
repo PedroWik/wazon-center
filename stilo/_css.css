@@ -1,0 +1,95 @@
+body{
+	/*background: url("../img/fish.png");
+	background-size: 100%;*/
+	background-image: linear-gradient(10deg,white,blue,white,blue,white,blue,white,blue,white,blue);
+	font-size: 12pt;
+	font-family: Arial, Helvetica, sans-serif;
+}
+.navegador{
+	border: 1px solid rgb(43, 96, 240);
+	border-radius: 3px;
+}
+.navegador a{
+	font-family: arial;
+	text-decoration: none;
+	font-size: 18pt;
+	color: rgb(43, 96, 240);
+	top: 59px;
+}
+.navegador td{
+	width: 100%;
+}
+.corpo-1{
+	border-bottom: 1px solid rgb(43, 96, 240);
+	background-color: rgba(255, 255, 255,0.5);
+}
+.corpo-1 p{
+	margin-right: 10%;
+	margin-left: 8%;
+	text-align: justify;
+	text-indent: 8%;
+}
+.corpo-1-1{
+	display: block;
+}
+.escolha td{
+	width: 100%;
+	background: rgba(43,96,240,0.5);
+	padding: 2px;
+	border-radius: 10px;
+}
+.escolha td.icon{
+	background: white;
+}
+.escolha a{
+	color: rgb(43, 96, 240);
+	font-size: 13pt;
+	text-decoration: none;
+	padding: 10px;
+	font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.formulario{
+	background-image: linear-gradient(10deg,white,rgb(43, 96, 240),white);
+	font-size: small;
+	padding-bottom: 6px;
+}
+.formulario table.primeiro{
+	background-color: white;
+	margin-left: 6px;
+	border-radius: 3px;
+	align-items: center;
+}
+footer{
+	border-top: 1px solid rgb(43, 96, 240);
+	text-align: center;
+	display: block;
+	float: bottom;
+	width: 100%;	
+	font-size: 12pt;
+}
+.form-1 input{
+	border: 1px solid rgb(10, 72, 255);
+}
+.form-1 input.btn{
+	background-color: rgb(43, 96, 240);
+}
+footer p{
+	color: #ddd;
+}
+/*stilo para desktop*/
+
+
+
+/*stilo do htm digitado no java script*/
+
+div#tabela{
+	width: 100px;
+	height: 100px;
+	background-color: tomato;
+}
+div#tabela table tr{
+	border: 1px solid black;
+}
+div#tabela table td{
+	border: 1px solid black;
+}
